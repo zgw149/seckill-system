@@ -1,0 +1,21 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: search-service
+  elasticsearch:
+    uris: http://localhost:9200
+    username: elastic             # 固定超级管理员账号
+    password: Zgw666....
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: search-sync-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

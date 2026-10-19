@@ -1,0 +1,7 @@
+org\example\searchservice\repository\ProgramSearchRepository.class
+org\example\searchservice\event\ProgramChangedEvent.class
+org\example\searchservice\SearchServiceApplication.class
+org\example\searchservice\consumer\ProgramChangedConsumer.class
+org\example\searchservice\service\ProgramSearchService.class
+org\example\searchservice\document\ProgramDocument.class
+org\example\searchservice\controller\ProgramSearchController.class

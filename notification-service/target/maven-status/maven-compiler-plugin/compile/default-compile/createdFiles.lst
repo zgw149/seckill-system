@@ -1,0 +1,4 @@
+org\example\notificationservice\model\OrderEventMessage.class
+org\example\notificationservice\config\KafkaConsumerConfig.class
+org\example\notificationservice\repository\NotificationOrderRepository.class
+org\example\notificationservice\service\NotificationEventService.class

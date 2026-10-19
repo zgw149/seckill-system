@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.searchservice.SearchServiceApplicationTests" time="13.699" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\Users\Desktop\seckill-microservice\search-service\target\test-classes;D:\Users\Desktop\seckill-microservice\search-service\target\classes;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter\3.3.5\spring-boot-starter-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot\3.3.5\spring-boot-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-autoconfigure\3.3.5\spring-boot-autoconfigure-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-logging\3.3.5\spring-boot-starter-logging-3.3.5.jar;D:\maven\reponsitory\ch\qos\logback\logback-classic\1.5.11\logback-classic-1.5.11.jar;D:\maven\reponsitory\ch\qos\logback\logback-core\1.5.11\logback-core-1.5.11.jar;D:\maven\reponsitory\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;D:\maven\reponsitory\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;D:\maven\reponsitory\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;D:\maven\reponsitory\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;D:\maven\reponsitory\org\springframework\spring-core\6.1.14\spring-core-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-jcl\6.1.14\spring-jcl-6.1.14.jar;D:\maven\reponsitory\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-data-elasticsearch\3.3.5\spring-boot-starter-data-elasticsearch-3.3.5.jar;D:\maven\reponsitory\org\springframework\data\spring-data-elasticsearch\5.3.5\spring-data-elasticsearch-5.3.5.jar;D:\maven\reponsitory\org\springframework\data\spring-data-commons\3.3.5\spring-data-commons-3.3.5.jar;D:\maven\reponsitory\co\elastic\clients\elasticsearch-java\8.13.4\elasticsearch-java-8.13.4.jar;D:\maven\reponsitory\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;D:\maven\reponsitory\jakarta\json\jakarta.json-api\2.1.3\jakarta.json-api-2.1.3.jar;D:\maven\reponsitory\org\eclipse\parsson\parsson\1.0.5\parsson-1.0.5.jar;D:\maven\reponsitory\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;D:\maven\reponsitory\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;D:\maven\reponsitory\org\elasticsearch\client\elasticsearch-rest-client\8.13.4\elasticsearch-rest-client-8.13.4.jar;D:\maven\reponsitory\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;D:\maven\reponsitory\org\apache\httpcomponents\httpcore-nio\4.4.16\httpcore-nio-4.4.16.jar;D:\maven\reponsitory\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;D:\maven\reponsitory\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;D:\maven\reponsitory\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;D:\maven\reponsitory\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-json\3.3.5\spring-boot-starter-json-3.3.5.jar;D:\maven\reponsitory\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;D:\maven\reponsitory\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;D:\maven\reponsitory\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-web\3.3.5\spring-boot-starter-web-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-tomcat\3.3.5\spring-boot-starter-tomcat-3.3.5.jar;D:\maven\reponsitory\org\apache\tomcat\embed\tomcat-embed-core\10.1.31\tomcat-embed-core-10.1.31.jar;D:\maven\reponsitory\org\apache\tomcat\embed\tomcat-embed-el\10.1.31\tomcat-embed-el-10.1.31.jar;D:\maven\reponsitory\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.31\tomcat-embed-websocket-10.1.31.jar;D:\maven\reponsitory\org\springframework\spring-web\6.1.14\spring-web-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-beans\6.1.14\spring-beans-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-webmvc\6.1.14\spring-webmvc-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-aop\6.1.14\spring-aop-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-expression\6.1.14\spring-expression-6.1.14.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-test\3.3.5\spring-boot-starter-test-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-test\3.3.5\spring-boot-test-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-test-autoconfigure\3.3.5\spring-boot-test-autoconfigure-3.3.5.jar;D:\maven\reponsitory\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;D:\maven\reponsitory\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;D:\maven\reponsitory\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;D:\maven\reponsitory\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;D:\maven\reponsitory\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;D:\maven\reponsitory\org\ow2\asm\asm\9.6\asm-9.6.jar;D:\maven\reponsitory\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;D:\maven\reponsitory\net\bytebuddy\byte-buddy\1.14.19\byte-buddy-1.14.19.jar;D:\maven\reponsitory\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;D:\maven\reponsitory\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;D:\maven\reponsitory\org\junit\jupiter\junit-jupiter\5.10.5\junit-jupiter-5.10.5.jar;D:\maven\reponsitory\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;D:\maven\reponsitory\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;D:\maven\reponsitory\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;D:\maven\reponsitory\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\maven\reponsitory\org\junit\jupiter\junit-jupiter-params\5.10.5\junit-jupiter-params-5.10.5.jar;D:\maven\reponsitory\org\junit\jupiter\junit-jupiter-engine\5.10.5\junit-jupiter-engine-5.10.5.jar;D:\maven\reponsitory\org\junit\platform\junit-platform-engine\1.10.5\junit-platform-engine-1.10.5.jar;D:\maven\reponsitory\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;D:\maven\reponsitory\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar;D:\maven\reponsitory\org\objenesis\objenesis\3.3\objenesis-3.3.jar;D:\maven\reponsitory\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;D:\maven\reponsitory\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;D:\maven\reponsitory\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;D:\maven\reponsitory\org\springframework\spring-test\6.1.14\spring-test-6.1.14.jar;D:\maven\reponsitory\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;D:\maven\reponsitory\org\springframework\kafka\spring-kafka\3.2.4\spring-kafka-3.2.4.jar;D:\maven\reponsitory\org\springframework\spring-context\6.1.14\spring-context-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-messaging\6.1.14\spring-messaging-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-tx\6.1.14\spring-tx-6.1.14.jar;D:\maven\reponsitory\org\springframework\retry\spring-retry\2.0.10\spring-retry-2.0.10.jar;D:\maven\reponsitory\org\apache\kafka\kafka-clients\3.7.1\kafka-clients-3.7.1.jar;D:\maven\reponsitory\com\github\luben\zstd-jni\1.5.6-3\zstd-jni-1.5.6-3.jar;D:\maven\reponsitory\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;D:\maven\reponsitory\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar;D:\maven\reponsitory\io\micrometer\micrometer-observation\1.13.6\micrometer-observation-1.13.6.jar;D:\maven\reponsitory\io\micrometer\micrometer-commons\1.13.6\micrometer-commons-1.13.6.jar;D:\maven\reponsitory\com\alibaba\cloud\spring-cloud-starter-alibaba-nacos-discovery\2023.0.3.3\spring-cloud-starter-alibaba-nacos-discovery-2023.0.3.3.jar;D:\maven\reponsitory\com\alibaba\cloud\spring-cloud-alibaba-commons\2023.0.3.3\spring-cloud-alibaba-commons-2023.0.3.3.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-client\2.4.2\nacos-client-2.4.2.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-auth-plugin\2.4.2\nacos-auth-plugin-2.4.2.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-encryption-plugin\2.4.2\nacos-encryption-plugin-2.4.2.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-logback-adapter-12\2.4.2\nacos-logback-adapter-12-2.4.2.jar;D:\maven\reponsitory\com\alibaba\nacos\logback-adapter\1.1.3\logback-adapter-1.1.3.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-log4j2-adapter\2.4.2\nacos-log4j2-adapter-2.4.2.jar;D:\maven\reponsitory\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;D:\maven\reponsitory\org\apache\httpcomponents\httpasyncclient\4.1.5\httpasyncclient-4.1.5.jar;D:\maven\reponsitory\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;D:\maven\reponsitory\io\prometheus\simpleclient\0.16.0\simpleclient-0.16.0.jar;D:\maven\reponsitory\io\prometheus\simpleclient_tracer_otel\0.16.0\simpleclient_tracer_otel-0.16.0.jar;D:\maven\reponsitory\io\prometheus\simpleclient_tracer_common\0.16.0\simpleclient_tracer_common-0.16.0.jar;D:\maven\reponsitory\io\prometheus\simpleclient_tracer_otel_agent\0.16.0\simpleclient_tracer_otel_agent-0.16.0.jar;D:\maven\reponsitory\io\micrometer\micrometer-core\1.13.6\micrometer-core-1.13.6.jar;D:\maven\reponsitory\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;D:\maven\reponsitory\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;D:\maven\reponsitory\org\springframework\cloud\spring-cloud-commons\4.1.4\spring-cloud-commons-4.1.4.jar;D:\maven\reponsitory\org\springframework\security\spring-security-crypto\6.3.4\spring-security-crypto-6.3.4.jar;D:\maven\reponsitory\org\springframework\cloud\spring-cloud-context\4.1.4\spring-cloud-context-4.1.4.jar;D:\maven\reponsitory\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\develop\Java\jdk17\bin"/>
+    <property name="sun.java.command" value="C:\Users\小张\AppData\Local\Temp\surefire2204884351093572388\surefirebooter-20261019011812331_11.jar C:\Users\小张\AppData\Local\Temp\surefire2204884351093572388 2026-10-19T01-17-19_518-jvmRun1 surefire-20261019011812331_9tmp surefire_2-20261019011812331_10tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Users\Desktop\seckill-microservice\search-service\target\test-classes;D:\Users\Desktop\seckill-microservice\search-service\target\classes;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter\3.3.5\spring-boot-starter-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot\3.3.5\spring-boot-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-autoconfigure\3.3.5\spring-boot-autoconfigure-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-logging\3.3.5\spring-boot-starter-logging-3.3.5.jar;D:\maven\reponsitory\ch\qos\logback\logback-classic\1.5.11\logback-classic-1.5.11.jar;D:\maven\reponsitory\ch\qos\logback\logback-core\1.5.11\logback-core-1.5.11.jar;D:\maven\reponsitory\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;D:\maven\reponsitory\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;D:\maven\reponsitory\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;D:\maven\reponsitory\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;D:\maven\reponsitory\org\springframework\spring-core\6.1.14\spring-core-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-jcl\6.1.14\spring-jcl-6.1.14.jar;D:\maven\reponsitory\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-data-elasticsearch\3.3.5\spring-boot-starter-data-elasticsearch-3.3.5.jar;D:\maven\reponsitory\org\springframework\data\spring-data-elasticsearch\5.3.5\spring-data-elasticsearch-5.3.5.jar;D:\maven\reponsitory\org\springframework\data\spring-data-commons\3.3.5\spring-data-commons-3.3.5.jar;D:\maven\reponsitory\co\elastic\clients\elasticsearch-java\8.13.4\elasticsearch-java-8.13.4.jar;D:\maven\reponsitory\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;D:\maven\reponsitory\jakarta\json\jakarta.json-api\2.1.3\jakarta.json-api-2.1.3.jar;D:\maven\reponsitory\org\eclipse\parsson\parsson\1.0.5\parsson-1.0.5.jar;D:\maven\reponsitory\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;D:\maven\reponsitory\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;D:\maven\reponsitory\org\elasticsearch\client\elasticsearch-rest-client\8.13.4\elasticsearch-rest-client-8.13.4.jar;D:\maven\reponsitory\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;D:\maven\reponsitory\org\apache\httpcomponents\httpcore-nio\4.4.16\httpcore-nio-4.4.16.jar;D:\maven\reponsitory\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;D:\maven\reponsitory\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;D:\maven\reponsitory\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;D:\maven\reponsitory\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-json\3.3.5\spring-boot-starter-json-3.3.5.jar;D:\maven\reponsitory\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;D:\maven\reponsitory\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;D:\maven\reponsitory\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-web\3.3.5\spring-boot-starter-web-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-tomcat\3.3.5\spring-boot-starter-tomcat-3.3.5.jar;D:\maven\reponsitory\org\apache\tomcat\embed\tomcat-embed-core\10.1.31\tomcat-embed-core-10.1.31.jar;D:\maven\reponsitory\org\apache\tomcat\embed\tomcat-embed-el\10.1.31\tomcat-embed-el-10.1.31.jar;D:\maven\reponsitory\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.31\tomcat-embed-websocket-10.1.31.jar;D:\maven\reponsitory\org\springframework\spring-web\6.1.14\spring-web-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-beans\6.1.14\spring-beans-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-webmvc\6.1.14\spring-webmvc-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-aop\6.1.14\spring-aop-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-expression\6.1.14\spring-expression-6.1.14.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-starter-test\3.3.5\spring-boot-starter-test-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-test\3.3.5\spring-boot-test-3.3.5.jar;D:\maven\reponsitory\org\springframework\boot\spring-boot-test-autoconfigure\3.3.5\spring-boot-test-autoconfigure-3.3.5.jar;D:\maven\reponsitory\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;D:\maven\reponsitory\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;D:\maven\reponsitory\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;D:\maven\reponsitory\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;D:\maven\reponsitory\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;D:\maven\reponsitory\org\ow2\asm\asm\9.6\asm-9.6.jar;D:\maven\reponsitory\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;D:\maven\reponsitory\net\bytebuddy\byte-buddy\1.14.19\byte-buddy-1.14.19.jar;D:\maven\reponsitory\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;D:\maven\reponsitory\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;D:\maven\reponsitory\org\junit\jupiter\junit-jupiter\5.10.5\junit-jupiter-5.10.5.jar;D:\maven\reponsitory\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;D:\maven\reponsitory\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;D:\maven\reponsitory\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;D:\maven\reponsitory\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\maven\reponsitory\org\junit\jupiter\junit-jupiter-params\5.10.5\junit-jupiter-params-5.10.5.jar;D:\maven\reponsitory\org\junit\jupiter\junit-jupiter-engine\5.10.5\junit-jupiter-engine-5.10.5.jar;D:\maven\reponsitory\org\junit\platform\junit-platform-engine\1.10.5\junit-platform-engine-1.10.5.jar;D:\maven\reponsitory\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;D:\maven\reponsitory\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar;D:\maven\reponsitory\org\objenesis\objenesis\3.3\objenesis-3.3.jar;D:\maven\reponsitory\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;D:\maven\reponsitory\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;D:\maven\reponsitory\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;D:\maven\reponsitory\org\springframework\spring-test\6.1.14\spring-test-6.1.14.jar;D:\maven\reponsitory\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;D:\maven\reponsitory\org\springframework\kafka\spring-kafka\3.2.4\spring-kafka-3.2.4.jar;D:\maven\reponsitory\org\springframework\spring-context\6.1.14\spring-context-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-messaging\6.1.14\spring-messaging-6.1.14.jar;D:\maven\reponsitory\org\springframework\spring-tx\6.1.14\spring-tx-6.1.14.jar;D:\maven\reponsitory\org\springframework\retry\spring-retry\2.0.10\spring-retry-2.0.10.jar;D:\maven\reponsitory\org\apache\kafka\kafka-clients\3.7.1\kafka-clients-3.7.1.jar;D:\maven\reponsitory\com\github\luben\zstd-jni\1.5.6-3\zstd-jni-1.5.6-3.jar;D:\maven\reponsitory\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;D:\maven\reponsitory\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar;D:\maven\reponsitory\io\micrometer\micrometer-observation\1.13.6\micrometer-observation-1.13.6.jar;D:\maven\reponsitory\io\micrometer\micrometer-commons\1.13.6\micrometer-commons-1.13.6.jar;D:\maven\reponsitory\com\alibaba\cloud\spring-cloud-starter-alibaba-nacos-discovery\2023.0.3.3\spring-cloud-starter-alibaba-nacos-discovery-2023.0.3.3.jar;D:\maven\reponsitory\com\alibaba\cloud\spring-cloud-alibaba-commons\2023.0.3.3\spring-cloud-alibaba-commons-2023.0.3.3.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-client\2.4.2\nacos-client-2.4.2.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-auth-plugin\2.4.2\nacos-auth-plugin-2.4.2.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-encryption-plugin\2.4.2\nacos-encryption-plugin-2.4.2.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-logback-adapter-12\2.4.2\nacos-logback-adapter-12-2.4.2.jar;D:\maven\reponsitory\com\alibaba\nacos\logback-adapter\1.1.3\logback-adapter-1.1.3.jar;D:\maven\reponsitory\com\alibaba\nacos\nacos-log4j2-adapter\2.4.2\nacos-log4j2-adapter-2.4.2.jar;D:\maven\reponsitory\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;D:\maven\reponsitory\org\apache\httpcomponents\httpasyncclient\4.1.5\httpasyncclient-4.1.5.jar;D:\maven\reponsitory\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;D:\maven\reponsitory\io\prometheus\simpleclient\0.16.0\simpleclient-0.16.0.jar;D:\maven\reponsitory\io\prometheus\simpleclient_tracer_otel\0.16.0\simpleclient_tracer_otel-0.16.0.jar;D:\maven\reponsitory\io\prometheus\simpleclient_tracer_common\0.16.0\simpleclient_tracer_common-0.16.0.jar;D:\maven\reponsitory\io\prometheus\simpleclient_tracer_otel_agent\0.16.0\simpleclient_tracer_otel_agent-0.16.0.jar;D:\maven\reponsitory\io\micrometer\micrometer-core\1.13.6\micrometer-core-1.13.6.jar;D:\maven\reponsitory\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;D:\maven\reponsitory\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;D:\maven\reponsitory\org\springframework\cloud\spring-cloud-commons\4.1.4\spring-cloud-commons-4.1.4.jar;D:\maven\reponsitory\org\springframework\security\spring-security-crypto\6.3.4\spring-security-crypto-6.3.4.jar;D:\maven\reponsitory\org\springframework\cloud\spring-cloud-context\4.1.4\spring-cloud-context-4.1.4.jar;D:\maven\reponsitory\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\小张"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="D:\develop\Java\jdk17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Users\Desktop\seckill-microservice\search-service"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="GBK"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\小张\AppData\Local\Temp\surefire2204884351093572388\surefirebooter-20261019011812331_11.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.20+7-LTS-191"/>
+    <property name="user.name" value="zhang"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\maven\reponsitory"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\小张\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3"/>
+    <property name="java.version" value="17.0.20"/>
+    <property name="user.dir" value="D:\Users\Desktop\seckill-microservice\search-service"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="31028"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="GBK"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\develop\Java\jdk17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\develop\Java\jdk17\bin;D:\soft\apache-maven-3.9.9\bin;D:\develop\Java\jdk-21\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp;D:\soft\Miniconda3;D:\soft\Miniconda3\Library\mingw-w64\bin;D:\soft\Miniconda3\Library\usr\bin;D:\soft\Miniconda3\Library\bin;D:\soft\Miniconda3\Scripts;C:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\develop\Java\jdk1.8.0_201\bin;D:\develop\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;D:\develop\Java\jdk11\bin;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Java\jdk-15.0.2\;D:\soft\apache-maven-3.6.1\bin;D:\develop\mysql-8.0.33-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\soft\axis2-1.8.2\bin;C:\Program Files\Bandizip\;D:\soft\Xshell\;D:\soft\XFTP\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.3.0\;D:\soft\Git\cmd;D:\soft\apache-tomcat-9.0.108\bin;D:\soft\apache-tomcat-9.0.108\lib;D:\soft\apache-tomcat-9.0.108\bin;D:\soft\nvm;C:\nvm4w\nodejs;D:\soft\nvm;D:\soft\nodejs;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\vscode\Microsoft VS Code\bin;C:\Users\小张\AppData\Roaming\Programs\Zero Install;D:\soft\Pycharm\PyCharm 2024.2.3\bin;;D:\soft\Pycharm\PyCharm Community Edition 2024.2.3\bin;;C:\Users\小张\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA 2024.3\bin;;D:\soft\nvm;C:\nvm4w\nodejs;D:\soft\cursor\resources\app\bin;C:\Users\小张\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.20+7-LTS-191"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="LOGGED_APPLICATION_NAME" value="[search-service] "/>
+  </properties>
+  <testcase name="contextLoads" classname="org.example.searchservice.SearchServiceApplicationTests" time="3.265">
+    <system-out><![CDATA[01:18:13.489 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.searchservice.SearchServiceApplicationTests]: SearchServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:18:13.636 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.searchservice.SearchServiceApplication for test class org.example.searchservice.SearchServiceApplicationTests
+2026-10-19T01:18:15.719+08:00  INFO 31028 --- [search-service] [           main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2026-10-19T01:18:15.731+08:00  INFO 31028 --- [search-service] [           main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2026-10-19T01:18:15.732+08:00  INFO 31028 --- [search-service] [           main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2026-10-19T01:18:15.742+08:00  INFO 31028 --- [search-service] [           main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-10-19T01:18:16.079+08:00  INFO 31028 --- [search-service] [           main] o.e.s.SearchServiceApplicationTests      : Starting SearchServiceApplicationTests using Java 17.0.20 with PID 31028 (started by zhang in D:\Users\Desktop\seckill-microservice\search-service)
+2026-10-19T01:18:16.080+08:00  INFO 31028 --- [search-service] [           main] o.e.s.SearchServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T01:18:17.309+08:00  INFO 31028 --- [search-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-19T01:18:17.425+08:00  INFO 31028 --- [search-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 Elasticsearch repository interface.
+2026-10-19T01:18:17.799+08:00  INFO 31028 --- [search-service] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6ec14396-4422-38d4-aedc-3fd255829a6b
+2026-10-19T01:18:21.377+08:00  INFO 31028 --- [search-service] [           main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-10-19T01:18:23.128+08:00  INFO 31028 --- [search-service] [           main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-10-19T01:18:23.295+08:00  INFO 31028 --- [search-service] [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-search-sync-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = search-sync-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2026-10-19T01:18:23.388+08:00  INFO 31028 --- [search-service] [           main] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-10-19T01:18:23.622+08:00  INFO 31028 --- [search-service] [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2026-10-19T01:18:23.622+08:00  INFO 31028 --- [search-service] [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2026-10-19T01:18:23.622+08:00  INFO 31028 --- [search-service] [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1792343903618
+2026-10-19T01:18:23.629+08:00  INFO 31028 --- [search-service] [           main] o.a.k.c.c.internals.LegacyKafkaConsumer  : [Consumer clientId=consumer-search-sync-group-1, groupId=search-sync-group] Subscribed to topic(s): program.changed
+2026-10-19T01:18:23.665+08:00  INFO 31028 --- [search-service] [           main] o.e.s.SearchServiceApplicationTests      : Started SearchServiceApplicationTests in 9.767 seconds (process running for 11.177)
+2026-10-19T01:18:24.424+08:00  INFO 31028 --- [search-service] [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-search-sync-group-1, groupId=search-sync-group] Cluster ID: PnCCdTQTR5m_FDAw1aQ6oQ
+2026-10-19T01:18:24.425+08:00  INFO 31028 --- [search-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-search-sync-group-1, groupId=search-sync-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-10-19T01:18:24.428+08:00  INFO 31028 --- [search-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-search-sync-group-1, groupId=search-sync-group] (Re-)joining group
+2026-10-19T01:18:24.445+08:00  INFO 31028 --- [search-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-search-sync-group-1, groupId=search-sync-group] Request joining group due to: need to re-join with the given member-id: consumer-search-sync-group-1-40a5b18c-8163-4f9b-8b4c-55d13682a958
+2026-10-19T01:18:24.445+08:00  INFO 31028 --- [search-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-search-sync-group-1, groupId=search-sync-group] (Re-)joining group
+]]></system-out>
+  </testcase>
+</testsuite>
